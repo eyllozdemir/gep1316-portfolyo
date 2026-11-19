@@ -10,9 +10,6 @@ dogum_yili = int(input("Doğum yılınız nedir? "))
 # Bilgisayarın tarihinden güncel yılı öğreniyoruz.
 guncel_yil = datetime.now().year
 
-# Güncel yılı otomatik olarak öğreniyoruz.
-guncel_yil = datetime.now().year
-
 # Doğum yılının gelecekte olup olmadığını kontrol ediyoruz.
 if dogum_yili > guncel_yil:
     print("Hata: Doğum yılı gelecekte olamaz!")
